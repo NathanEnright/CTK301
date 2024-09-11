@@ -1,0 +1,39 @@
+h1 {
+    color: tomato
+}
+
+h1 {
+    background-color: aquamarine
+}
+
+h2 {
+    color: mediumslateblue
+}
+
+h2{
+    background-color: aquamarine
+}
+
+#keybasicinfo {
+    color: plum
+}
+
+.speckeyinfo {
+    color: crimson
+}
+
+#exSPANplestyle {
+    color: goldenrod
+}
+
+a:link {
+    color: red
+}
+
+a:visited {
+    color: green
+}
+
+a:hover {
+    color: yellow
+}
