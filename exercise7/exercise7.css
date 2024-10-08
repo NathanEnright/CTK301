@@ -1,0 +1,120 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    background-color: skyblue;
+    margin: 0px;
+    padding: 20px;
+    border: solid black 2px;
+}
+
+#h21{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 20px 20px 0px;
+    margin: 0px 0px 0px 20px;
+    color: black;
+    border-bottom: 3px solid black;
+    grid-column: span 1;
+}
+
+#h22{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 20px 20px 0px;
+    margin: 0px 0px 0px 20px;
+    color: white;
+    background-color: skyblue;
+    border-bottom: 3px solid purple;
+    float: right;
+}
+
+header{
+    grid-column: span 3;
+}
+
+#wrapper{
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+.nonavlink{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding: 20px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nonavsecondh2p1{
+    color: purple;
+    padding: 20px;
+    font-style: italic;
+}
+
+#nonavsecondh2p2{
+    color: purple;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+img{
+    float: right;
+}
+nav{
+    padding: 0px;
+    grid-column:  span 3;
+}
+
+nav ul{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 16px;
+}
+
+nav li{
+    border: solid black 3px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+main{
+    display: grid;
+    grid-column: span 2;
+}
+
+body{
+    background-image: url(a62.png);
+}
+
+#foot{
+    color: black;
+    background-color: skyblue;
+    border: solid black 2px;
+    padding: 15px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    grid-column: span 3;
+}
